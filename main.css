@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color:deepskyblue;
+    margin: 0 10px;
+    padding: 10px;
+}
+header #Branding a{
+    font-weight: bold;
+    font-size: 20PX;
+    text-transform: uppercase;
+    color: rgb(255, 80, 80);
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header nav li a{
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 10px;
+}
+header nav li a:hover{
+    color: coral;
+}
